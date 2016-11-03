@@ -1,0 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato|Oswald");
+
+.indica {
+	border-radius: 10px; 
+	background-color: rgba(109, 51, 94, 0.811765); 
+	box-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 5px 0px inset; 
+	border: 5px solid white; 
+	padding: 1%;
+}
+.sativa {
+	border-radius: 10px;
+    background-color: rgba(211, 71, 39, 0.811765);
+    box-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 5px 0px inset;
+    border: 5px solid white;
+    padding: 1%;
+}
+.cbd {
+	border-radius: 10px;
+    background-color: rgba(36, 114, 111, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 5px 0px inset;
+    border: 5px solid white;
+    padding: 1%;	
+}
+.hybrid {
+	border-radius: 10px;
+    background-color: rgba(80, 125, 22, 0.811765);
+    box-shadow: rgba(0, 0, 0, 0.74902) 1px 1px 5px 0px inset;
+    border: 5px solid white;
+    padding: 1%;
+}
+
+.bt-spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.bt-spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.bt-spinner .bt-rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.bt-spinner .bt-rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.bt-spinner .bt-rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.bt-spinner .bt-rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+#master-row {
+	padding: 2%;
+}
+#target #master-row h1, #target #master-row h2 {
+	padding-left: 15px;
+	font-family: 'Oswald', sans-serif;  
+} 
+#target table tbody ul {
+	padding-left: none !important;
+}
+#target table tbody {
+	font-family: 'Oswald', sans-serif;  
+}
+#target  table tbody .price1, #target  table tbody .price2, #target  table tbody .prices  {
+	font-family: 'Droid Serif', serif; 
+    vertical-align: middle;
+}
+#target table thead .priceHeader {
+	text-align: center;
+}
+#target .nameItem {
+	width: 50%;
+    vertical-align: middle;
+}
+#target .typeItem {
+    vertical-align: middle;
+	width: 20%;
+}
